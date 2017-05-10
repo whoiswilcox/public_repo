@@ -1,7 +1,7 @@
 var http = require('http');
 var handleRequest = function(request, response) {
   response.writeHead(200);
-  response.end("Hello Fifth Domain!");
+  response.end("Hello 5d!");
 }
 var www = http.createServer(handleRequest);
 www.listen(8080);
