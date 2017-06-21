@@ -219,7 +219,7 @@
 		</NetworkConnect>
 		<NetworkConnect onmatch="exclude">
 			<DestinationIp condition="is">127.0.0.1</DestinationIp> <!--localhost-->
-			<DestinationIp condition="begin with">ff02</DestinationIp> <!--IPv6 Multicast>
+			<DestinationIp condition="begin with">ff02</DestinationIp> <!--IPv6 Multicast-->
 			<Image condition="image">OneDrive.exe</Image> <!--Microsoft:OneDrive-->
 			<Image condition="image">Spotify.exe</Image> <!--Spotify-->
 			<Image condition="end with">AppData\Roaming\Dropbox\bin\Dropbox.exe</Image> <!--Dropbox-->
